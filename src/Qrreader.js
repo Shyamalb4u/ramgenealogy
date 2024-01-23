@@ -12,6 +12,7 @@ export default function Qrreader(props) {
 
   const handleScan = (result) => {
     if (result) {
+      console.log(result);
       setResult(result);
     }
   };
