@@ -28,7 +28,7 @@ export default function Qrreader(props) {
         onError={handleError}
         onScan={handleScan}
       />
-      <p>{result}</p>
+      <p>{result.text}</p>
       <button onClick={props.closeScanner}>Close</button>
     </>
   );
