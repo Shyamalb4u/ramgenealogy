@@ -116,7 +116,7 @@ function App() {
               scannerClick();
             }}
           >
-            Pay Some One
+            Pay Some
           </button>
         </li>
       </ul>
